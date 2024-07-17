@@ -5,9 +5,7 @@
 * RPC for connecting to blockchain network
 * API key from Binance for contract verification. Note: In this tutorial, we will be working with Binance, therefore the above links are for binance. You can choose any network that supports EVM (e.g. Ethereum), and then accordingly change the RPC and API keys
 * Private key of wallet which will be deploying the contract. The best way is to have MetaMask wallet installed in your Browser.
-***
 **Setting up contract environment:**
-***
 Navigate to the folder
 ```
 cd contracts
