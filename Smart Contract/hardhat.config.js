@@ -2,8 +2,6 @@
 
 require("@nomicfoundation/hardhat-toolbox");
 require("@nomicfoundation/hardhat-ethers");
-// require("solidity-coverage")
-// require("hardhat-gas-reporter")
 
 require('dotenv').config();
 
@@ -24,7 +22,6 @@ module.exports = {
          accounts: [`0x${PRIVATE_KEY}`]
       }
    },
-   // plugins: ["solidity-coverage"],
    etherscan:
    {
       apiKey: ETHERSCAN_API_KEY
@@ -37,7 +34,4 @@ module.exports = {
    {
       timeout: 100000000
    },
-   // gasReporter:{
-   //    enabled : true
-   // }
 };
