@@ -1,31 +1,35 @@
 # Mobile-DAPP-try
 ***
 ## Part 2: Smart Contract Setup
+
 **Pre-requisite:**
+
 * RPC for connecting to blockchain network
 * API key from Binance for contract verification. Note: In this tutorial, we will be working with Binance, therefore the above links are for binance. You can choose any network that supports EVM (e.g. Ethereum), and then accordingly change the RPC and API keys
-* Private key of wallet which will be deploying the contract. The best way is to have MetaMask wallet installed in your Browser.
+* Private key of wallet which will be deploying the contract. The best way is to have MetaMask wallet installed in your Browser
+
 **Setting up contract environment:**
-Navigate to the folder
+
+* Navigate to the folder
 ```
 cd contracts
 ```
-Install the required dependencies
+* Install the required dependencies
 ```
 npm i
 ```
-Compile the contract
+* Compile the contract
 ```
 npm run compile
 ```
-Test the smart contract's functionality
+* Test the smart contract's functionality
 ```
 npm run test
 ```
 Note: If you see any error after running test, most likely because of .env file that you need to create. Please check the next step and then re run this code.
-***
+
 **Deploy contract:**
-***
+
 Create a file .env:
 ```
 touch .env
