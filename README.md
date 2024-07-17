@@ -1,5 +1,7 @@
 # Mobile-DAPP-try
+
 ##Part 2: Smart Contract Setup
+
 Pre-requisite:
 RPC for connecting to blockchain network
 API key from Binance for contract verification. Note: In this tutorial, we will be working with Binance, therefore the above links are for binance. You can choose any network that supports EVM (e.g. Ethereum), and then accordingly change the RPC and API keys
@@ -8,9 +10,9 @@ Setting up contract environment:
 Navigate to the folder
 cd contracts
 Install the required dependencies
-///
+```
 npm i
-///
+```
 Compile the contract
 npm run compile
 Test the smart contract's functionality
