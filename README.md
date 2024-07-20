@@ -5,14 +5,14 @@
 **Pre-requisite:**
 
 * RPC for connecting to blockchain network
-* API key from Binance for contract verification. Note: In this tutorial, we will be working with Binance, therefore the above links are for binance. You can choose any network that supports EVM (e.g. Ethereum), and then accordingly change the RPC and API keys
+* API key from Etherscan for contract verification. Note: In this tutorial, we will be working with Binance, therefore the above links are for binance. You can choose any network that supports EVM (e.g. Ethereum), and then accordingly change the RPC and API keys
 * Private key of wallet which will be deploying the contract. The best way is to have MetaMask wallet installed in your Browser
 
 **Setting up contract environment:**
 
 * Navigate to the folder
 ```
-cd contracts
+cd Smart Contract
 ```
 * Install the required dependencies
 ```
@@ -36,30 +36,51 @@ touch .env
 ```
 Open .env by running open .env or opening by any code editor and paste the following and save it:
 ```
-privateKey = '#Your RPC key'
-apiKey= '#Your private key'
-PROVIDER_URL = '#Your API  Key'
+API_URL = '#Your API HTTPS URL'
+PRIVATE_KEY = '#Your Owners Private wallet key'
+ETHERSCAN_API_KEY = '#Your Etherscan API KEY'
 ```
-Replace the API keys with your keys. Note: This file will be ignored by git as it is included in the .gitignore file.
-To deploy and verify the contract
+Replace the API keys with your keys.
+
+Update your hardhat.config.js
 ```
-npx hardhat deploy --tags token --network bsc_testnet
+ defaultNetwork: "sepolia",
 ```
-***
+To deploy and verify the contract run:
+```
+npx hardhat run scripts/Deployment.js --network sepolia
+```
+```
+npx hardhat verify --network sepolia DEPLOYED_CONTRACT_ADDRESS
+```
 **Deploying to other networks:**
-***
+
 If you wish to deploy on some other network that supports EVM, then you need to do some configurations.
 In the hardhat.config.ts file, do the network configuration as follows (for example for ETH):
 ```
-eth_scan: {
-    url: process.env.PROVIDER_URL,
-    accounts: [process.env.privateKey],
-    verify: {
-        etherscan: {
-        apiKey: secrets.apiKey,
-    },
-  },
-},
+...
+require('dotenv').config();
+...
+const { API_URL, PRIVATE_KEY, ETHERSCAN_API_KEY} = process.env;
+...
+module.exports = {
+    ...
+    networks:
+       {
+          hardhat: {},
+          sepolia:
+          {
+             url: API_URL,
+             accounts: [`0x${PRIVATE_KEY}`]
+          }
+       },
+       etherscan:
+       {
+          apiKey: ETHERSCAN_API_KEY
+       },
+    ...
+}
+
 ```
 Note that you will require to add the RPC and API for Ethereum in .secrets.json accordingly.
 To deploy, select --network accordingly, e.g. --network eth_scan.
