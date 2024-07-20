@@ -18,19 +18,7 @@ cd Smart Contract
 ```
 npm i
 ```
-* Compile the contract
-```
-npm run compile
-```
-* Test the smart contract's functionality
-```
-npm run test
-```
-Note: If you see any error after running test, most likely because of .env file that you need to create. Please check the next step and then re run this code.
-
-**Deploy contract:**
-
-Create a file .env:
+* Create a file .env:
 ```
 touch .env
 ```
@@ -42,6 +30,17 @@ ETHERSCAN_API_KEY = '#Your Etherscan API KEY'
 ```
 Replace the API keys with your keys.
 
+* Compile the contract
+```
+npx hardhat compile
+```
+* Test the smart contract's functionality
+```
+npx hardhat test
+```
+
+**Deploy contract:**
+
 Update your hardhat.config.js
 ```
  defaultNetwork: "sepolia",
@@ -50,6 +49,7 @@ To deploy and verify the contract run:
 ```
 npx hardhat run scripts/Deployment.js --network sepolia
 ```
+**Verify contract:**
 ```
 npx hardhat verify --network sepolia DEPLOYED_CONTRACT_ADDRESS
 ```
