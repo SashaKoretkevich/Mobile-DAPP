@@ -18,9 +18,9 @@ Greetings all! In this repository, we will look how you can have your own Device
 
  d. Verify Smart Contract
 
-**3. Frontend Ios Application:**
+**3. Frontend iOS Application:**
 
- a. Launching the Ios Application
+ a. Launching the iOS Application
 
  b. Interating with the smart contract on the blockchain 
 
@@ -36,8 +36,10 @@ cd Mobile-DAPP
 The folder will have three subfolders:
 
 Smart Contract
-Ios Application
-Iot devices
+
+iOS Application
+
+IoT Devices
 
 ## Part 2: Smart Contract Setup
 
