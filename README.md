@@ -4,25 +4,25 @@ Greetings all! In this repository, we will look how you can have your own Device
 
 **1. IoT device setup:**
 
-a. Writing code on raspberry pi 3
+ a. Writing code on raspberry pi 3
 
-b. Connecting Raspberry with Arduino Uno
+ b. Connecting Raspberry with Arduino Uno
 
-2. Backend Smart Contract:
+**2. Backend Smart Contract:**
 
-a. Write Smart contract
+ a. Write Smart contract
 
-b. Test the contract
+ b. Test the contract
 
-c. Deploy to the test network
+ c. Deploy to the test network
 
-d. Verify Smart Contract
+ d. Verify Smart Contract
 
-3. Frontend Ios Application:
+**3. Frontend Ios Application:**
 
-a. Launching the Ios Application
+ a. Launching the Ios Application
 
-b. Interating with the smart contract on the blockchain 
+ b. Interating with the smart contract on the blockchain 
 
 Let's Go!
 
