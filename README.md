@@ -54,7 +54,7 @@ The folder will have three subfolders:
 
 * Navigate to the folder
 ```
-cd Smart Contract
+cd SmartContract
 ```
 * Install the required dependencies
 ```
