@@ -36,11 +36,11 @@ cd Mobile-DAPP
 ```
 The folder will have three subfolders:
 
-+ Smart Contract
++ SmartContract
 
-+ iOS Application
++ iOSApp
 
-+ IoT Devices
++ iotDevices
 
 ## Part 2: Smart Contract Setup
 
