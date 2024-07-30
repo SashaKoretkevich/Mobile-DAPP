@@ -2,7 +2,7 @@
 
 Greetings all! In this repository, we will look how you can have your own Device managing system. In the later part of the text, we will tell you about all the prerequisites to run this application. Our task is divided into three parts:
 
-1. IoT device setup:
+**1. IoT device setup:**
 
 a. Writing code on raspberry pi 3
 
@@ -26,7 +26,18 @@ b. Interating with the smart contract on the blockchain
 
 Let's Go!
 
-***
+## Setup the environment
+
+Clone the repository and go the folder
+
+git clone https://github.com/SashaKoretkevich/Mobile-DAPP.git
+cd Mobile-DAPP
+The folder will have three subfolders:
+
+Smart Contract
+Ios Application
+Iot devices
+
 ## Part 2: Smart Contract Setup
 
 **Pre-requisite:**
