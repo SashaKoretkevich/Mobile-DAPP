@@ -29,9 +29,10 @@ Let's Go!
 ## Setup the environment
 
 Clone the repository and go the folder
-
+```
 git clone https://github.com/SashaKoretkevich/Mobile-DAPP.git
 cd Mobile-DAPP
+```
 The folder will have three subfolders:
 
 Smart Contract
