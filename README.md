@@ -1,4 +1,4 @@
-# Mobile-DAPP-try
+# Mobile-DAPP
 
 Greetings all! In this repository, we will look how you can have your own Device managing system. In the later part of the text, we will tell you about all the prerequisites to run this application. Our task is divided into three parts:
 
