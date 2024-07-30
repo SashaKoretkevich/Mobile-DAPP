@@ -46,7 +46,7 @@ IoT Devices
 **Pre-requisite:**
 
 * RPC for connecting to blockchain network
-* API url from Etherscan for contract verification.
+* API key from Etherscan for contract verification. Note: In this tutorial, we will be working with Ethereum, therefore the above links are for Ethereum. You can choose any network that supports EVM (e.g. Binance), and then accordingly change the RPC and API keys
 * Private key of wallet which will be deploying the contract. The best way is to have MetaMask wallet installed in your Browser
 
 **Setting up contract environment:**
@@ -94,14 +94,14 @@ npx hardhat verify --network sepolia DEPLOYED_CONTRACT_ADDRESS
 **Deploying to other networks:**
 
 If you wish to deploy on some other network that supports EVM, then you need to do some configurations.
-In the hardhat.config.ts file, do the network configuration as follows (for example for sepolia):
+In the hardhat.config.js file, do the network configuration as follows:
 ```
 module.exports = {
     ...
     networks:
        {
           hardhat: {},
-          sepolia:
+          "#Name of the network":
           {
              url: API_URL,
              accounts: [`0x${PRIVATE_KEY}`]
@@ -115,7 +115,7 @@ module.exports = {
 }
 
 ```
-Note that you will require to add the RPC and API for Ethereum in .secrets.json accordingly.
-To deploy, select --network accordingly.
+Note that you will require to add the RPC and API for Ethereum in .env accordingly.
+To deploy and verify, select --network accordingly.
 ***
 
