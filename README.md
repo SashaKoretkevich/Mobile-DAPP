@@ -59,6 +59,9 @@ cd Smart Contract
 ```
 npm i
 ```
+```
+npm install --save-dev @nomicfoundation/hardhat-toolbox
+```
 * Create a file .env:
 ```
 touch .env
