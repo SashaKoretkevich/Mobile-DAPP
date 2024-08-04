@@ -135,7 +135,12 @@ cd iOSApp
 ```
 open blOne.xcodeproj
 ```
-Before building the application it is needed to paste needed information to the file HomeViewController.swift about manager's wallet address and private key, smart contract's address and its ABI in the JSON format, and RPC URL. After that it is possible to open the application and test it.
+Before building the application it is needed to paste needed information to the file HomeViewController.swift about 
+- manager's wallet address and private key,
+- smart contract's address and its ABI in the JSON format,
+- RPC URL
+
+After that it is possible to open the application and test it.
 
 In order to open the application, simulator or mobile device (iPhone) can be used but the version of iOS should be more or equal to 16.0. In the login page to get access to the app it is necessary to use the wallet address of the manager.
 
