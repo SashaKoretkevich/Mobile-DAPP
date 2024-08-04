@@ -18,7 +18,7 @@ Greetings all! In this repository, we will look how you can have your own Device
 
   d. Verify Smart Contract
 
-**3. Frontend iOS Application:**
+**3. iOS Application:**
 
   a. Launching the iOS Application
 
@@ -122,4 +122,20 @@ module.exports = {
 Note that you will require to add the RPC and API for Ethereum in .env accordingly.
 To deploy and verify, select --network accordingly.
 ***
+## Part 3: iOS application setup
+* Going back to the main folder of the repository cloned
+```
+cd -
+```
+* Going to iOSApp folder
+```
+cd iOSApp
+```
+* Opening the project
+```
+open blOne.xcodeproj
+```
+Before building the application it is needed to paste needed information to the file HomeViewController.swift about manager's wallet address and private key, smart contract's address and its ABI in the JSON format, and RPC URL. After that it is possible to open the application and test it.
+
+In order to open the application, simulator or mobile device (iPhone) can be used but the version of iOS should be more or equal to 16.0. In the login page to get access to the app it is necessary to use the wallet address of the manager.
 
