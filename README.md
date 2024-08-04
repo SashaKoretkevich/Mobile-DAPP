@@ -47,7 +47,7 @@ The folder will have three subfolders:
 **Pre-requisite:**
 
 * RPC for connecting to blockchain network
-* API key from Etherscan for contract verification. Note: In this tutorial, we will be working with Ethereum, therefore the above links are for Ethereum. You can choose any network that supports EVM (e.g. Binance), and then accordingly change the RPC and API keys
+* API key from Etherscan for contract verification. Note: In this tutorial, we will be working with Ethereum. You can choose any network that supports EVM (e.g. Binance), and then accordingly change the RPC and API keys
 * Private key of wallet which will be deploying the contract. The best way is to have MetaMask wallet installed in your Browser
 
 **Setting up contract environment:**
