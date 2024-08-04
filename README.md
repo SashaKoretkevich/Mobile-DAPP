@@ -21,8 +21,6 @@ Greetings all! In this repository, we will look how you can have your own Device
 **3. iOS Application:**
 
   a. Launching the iOS Application
-
-  b. Interating with the smart contract on the blockchain 
   
 
 Let's Go!
@@ -40,7 +38,7 @@ The folder will have three subfolders:
 
 + iOSApp
 
-+ iotDevices
++ IoTDevices
 
 ## Part 2: Smart Contract Setup
 
