@@ -8,6 +8,8 @@ Greetings all! In this repository, we will look how you can have your own Device
 
   b. Connecting Raspberry with Arduino Uno
 
+
+
 **2. Backend Smart Contract:**
 
   a. Write Smart contract
@@ -17,6 +19,8 @@ Greetings all! In this repository, we will look how you can have your own Device
   c. Deploy to the test network
 
   d. Verify Smart Contract
+
+
 
 **3. iOS Application:**
 
