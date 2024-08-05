@@ -147,9 +147,9 @@ In order to run the application, simulator or mobile device (iPhone) can be used
 In the login page to get access to the app it is necessary to use the wallet address of the manager.
 
 ## Part 3: IoT Devices
-**MicroController**
+**MicroController: **
 We are using the Arduino Uno as our Micro Controller, its connected to a Potentiometer sensor and a Ultrasonic sensor, 
 there are also 3 led lights (red, yellow, green) that light up according to the values coming from the Pontentiometer.
 
-**MicroProcessors**
+**MicroProcessors: **
 The Raspberry pi is connected to the Arduino using a USB Cable in order to transfer the data coming from the sensors to the raspberry pi, and then transfer them to the BlockChain.
