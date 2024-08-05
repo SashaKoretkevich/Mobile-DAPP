@@ -42,7 +42,7 @@ The folder will have three subfolders:
 
 + IoTDevices
 
-## Part 2: Smart Contract Setup
+## Part 1: Smart Contract Setup
 
 **Pre-requisite:**
 
@@ -122,7 +122,7 @@ module.exports = {
 Note that you will require to add the RPC and API for Ethereum in .env accordingly.
 To deploy and verify, select --network accordingly.
 ***
-## Part 3: iOS application setup
+## Part 2: iOS application setup
 * Going back to the main folder of the repository cloned
 ```
 cd -
