@@ -1,15 +1,8 @@
 # Mobile-DAPP
 
 Greetings all! In this repository, we will look how you can have your own Device managing system. In the later part of the text, we will tell you about all the prerequisites to run this application. Our task is divided into three parts:
-
-**1. IoT device setup:**
-
-  a. Writing code on raspberry pi 3
-
-  b. Connecting Raspberry with Arduino Uno
-
   
-**2. Backend Smart Contract:**
+**1. Backend Smart Contract:**
 
   a. Write Smart contract
 
@@ -20,9 +13,16 @@ Greetings all! In this repository, we will look how you can have your own Device
   d. Verify Smart Contract
 
   
-**3. iOS Application:**
+**2. iOS Application:**
 
   a. Launching the iOS Application
+  
+
+**3. IoT device setup:**
+
+  a. Writing code on raspberry pi 3
+
+  b. Connecting Raspberry with Arduino Uno
   
 
 Let's Go!
